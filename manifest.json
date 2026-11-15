@@ -1,0 +1,22 @@
+{
+  "id": "sdilej-nuvio",
+  "name": "Sdílej Nuvio",
+  "description": "Sdilej.cz zdroj pre Nuvio",
+  "author": "Sároš",
+  "version": "0.1.0",
+  "scrapers": [
+    {
+      "id": "sdilej",
+      "name": "Sdílej",
+      "description": "Zdroj streamov zo Sdilej.cz pre filmy a seriály.",
+      "version": "0.1.0",
+      "author": "Sároš",
+      "supportedTypes": ["movie", "tv"],
+      "filename": "providers/sdilej.js",
+      "enabled": true,
+      "logo": "https://sdilej.cz/favicon.ico",
+      "contentLanguage": ["cs", "sk"],
+      "formats": ["mkv", "mp4", "avi"]
+    }
+  ]
+}
